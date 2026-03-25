@@ -1,12 +1,6 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-variable "AWS_SECRET_ACCESS_KEY" {
-}
-
-variable "AWS_ACCESS_KEY_ID" {
-}
-
 variable "regions" {
   description = "AWS regions to deploy to."
   type        = set(string)
